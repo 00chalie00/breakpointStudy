@@ -10,11 +10,27 @@ import UIKit
 
 class GroupsVC: UIViewController {
 
+    
+//    var emailGroupArray = [String]()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
+    
+}//End Of The Class
 
-
-}
-
+//extension GroupsVC: UITableViewDelegate, UITableViewDataSource {
+//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        return emailGroupArray.count
+//    }
+//
+//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        guard let cell = tableView.dequeueReusableCell(withIdentifier: "groupcell", for: indexPath) as? GroupCell else {return UITableView()}
+//
+//    }
+//
+//    func numberOfSections(in tableView: UITableView) -> Int {
+//        return 1
+//    }
+//}
